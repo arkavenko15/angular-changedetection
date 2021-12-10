@@ -1,6 +1,10 @@
-.app-container {
-  border: 2px solid blue;
+.child-container {
+  border: 2px solid pink;
+  margin: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .btn {
   background-color: blue;
@@ -15,7 +19,4 @@
 .btn:hover {
   background-color: white;
   color: blue;
-}
-input {
-  padding: 10px 15px;
 }
